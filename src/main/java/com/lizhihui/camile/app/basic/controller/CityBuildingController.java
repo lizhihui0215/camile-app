@@ -6,14 +6,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 /**
  * Created by lizhihui on 07/05/2017.
+ *
+ *
  */
-
-@Controller
+@RestController
 @RequestMapping("/city/building")
 public class CityBuildingController {
 
